@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $("#t1").draggable();
-  $("#baby").draggable();
-  // $("#error").draggable();
+  $("#error").draggable();
 
   $("#t2").click(function(){
     	$("#video").show();
