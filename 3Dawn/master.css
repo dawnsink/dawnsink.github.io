@@ -1,0 +1,28 @@
+body{
+  cursor: url('thirdeye.png'), default;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+#error {
+  border-radius: 350px 350px 350px 350px;
+  padding-left: 200px;
+  
+}
+
+.content {
+  top: 50%;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 30px;
+  font-style:  italic;
+  color: orchid;
+  padding: 20px;
+}
