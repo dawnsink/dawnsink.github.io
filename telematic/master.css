@@ -8,11 +8,9 @@
 }
 
 #twitch-embed{
-  position: fixed;
+  position: relative;
   top: 15%;
   padding-left: 400px;
-  channel: "alisaoleva";
-  border-radius: 50px;
 }
 
 .content {
