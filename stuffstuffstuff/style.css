@@ -1,7 +1,7 @@
 body {
   /* background-color: gold; */
-  background-color: #000001;
-  transition: 2s;
+  background-color: gold;
+  transition: 5s;
   font-family: Helvetica, sans-serif;
 }
 
@@ -29,7 +29,7 @@ a:active {
 }
 
 .button {
-  background-color: hotpink;
+  background-color: lavenderblush;
   border: 1px solid red;
   width: 70%;
   color: white;
