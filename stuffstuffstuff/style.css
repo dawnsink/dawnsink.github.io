@@ -1,10 +1,35 @@
 body {
-  background-color: coral;
+  /* background-color: gold; */
+  background-color: #000001;
+  transition: 2s;
   font-family: Helvetica, sans-serif;
 }
 
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: line-through;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 .button {
-  background-color: coral;
+  background-color: hotpink;
   border: 1px solid red;
   width: 70%;
   color: white;
@@ -19,7 +44,6 @@ body {
 
 .buttonA {
   border-radius: 50%;
-  padding
 }
 
 .grid-container {
@@ -31,8 +55,6 @@ body {
 }
 
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
   font-size: 40px;
   text-align: center;
