@@ -1,29 +1,107 @@
 body {
-  /* background-color: gold; */
   background-color: gold;
-  transition: 7s;
-  font-family: Helvetica, sans-serif;
+  transition: 30s;
+  font-family: Didot, serif;
 }
 
-/* unvisited link */
+.column {
+    float: left;
+    padding: 10px;
+  }
+
+.column.side {
+    width: 25%;
+  }
+
+.column.middle {
+    width: 50%;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 600px){.column.side, .column.middle {width: 100%;}}
+
+
+h1{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h4{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h5{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  text-align: left;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2.5;
+}
+
+/* hr.new1 {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.paragraph {
+  padding: 20px;
+} */
+
+
+
+
+
+
+/*
 a:link {
   color: red;
   text-decoration: none;
 }
 
-/* visited link */
+
 a:visited {
   color: green;
   text-decoration: none;
 }
 
-/* mouse over link */
+
 a:hover {
   color: blue;
   text-decoration: line-through;
 }
 
-/* selected link */
+
 a:active {
   color: blue;
 }
@@ -58,4 +136,4 @@ a:active {
   padding: 20px;
   font-size: 40px;
   text-align: center;
-}
+} */

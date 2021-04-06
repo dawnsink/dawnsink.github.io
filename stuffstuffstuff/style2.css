@@ -1,0 +1,61 @@
+body {
+  /* background-color: gold; */
+  background-color: gold opacity: 0.4;
+  transition: 7s;
+  font-family: Helvetica, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+  text-decoration: line-through;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.button {
+  background-color: lavenderblush;
+  border: 1px solid red;
+  width: 70%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonA {
+  border-radius: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
