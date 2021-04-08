@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>a frame test</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+  <a-scene>
+      <a-assets>
+          <a-asset-item id="card" src="tarot-star.glb"></a-asset-item>
+      </a-assets>
+          <a-entity gltf-model="#card"
+          id="star"
+          position="0 1.6 -2.5"
+          scale="1 1 1"
+          rotation="0 0 0"></a-entity>
+      <a-sky color="000000"></a-sky>
+  </a-scene>
+
+
+
+
+
+    <a-scene>
+      <a-entity hello-world></a-entity>
+    </a-scene>
+
+    <script src="site.js" async defer></script>
+  </body>
+</html>
