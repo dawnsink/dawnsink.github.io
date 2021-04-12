@@ -3,16 +3,36 @@ body {
   transition: 20s;
   font-family: Didot, serif;
 }
+
+h1 {
+  font-size: 120px;
+}
+
+/* title */
+.title {
+  border: 1px solid black;
+  border-radius: 90px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.title p {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* title */
+
 /* content columns */
 .wrap {
   display: flex;
 }
 .left {
-  flex-basis: 35%;
+  flex-basis: 50%;
+  margin: 30px;
 }
 .right {
   /* background: whitesmoke; */
-  flex-basis: 65%;
+  flex-basis: 50%;
   height: 100vh;
   overflow: auto;
 }
@@ -55,7 +75,7 @@ a:active {
   border-radius: 600px;
   overflow: hidden;
   position: relative;
-  transition: width 0.2s ease-in-out;
+  transition: width 0.3s ease-in-out;
 }
 .add-btn:hover {
   width: 220px;
