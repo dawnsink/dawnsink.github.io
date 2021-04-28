@@ -1,0 +1,85 @@
+body {
+  background-color:  #FFF8E7;
+  /* https://web.archive.org/web/20161222101809/http://www.pha.jhu.edu/~kgb/cosspec/ */
+  transition: 60s;
+  padding: 1rem;
+  margin: 2rem;
+  font-family: Didot, serif;
+}
+
+/* Screen larger than 600px 2 column */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr); }}
+
+/* Screen larger than 900px 3 columns */
+@media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(16, 1fr); }}
+
+/* animated edges */
+.trans {
+        -webkit-transition: border-radius .1s;
+        transition: border-radius .1s;
+    }
+
+.edge:hover {
+        border-radius: 50px;
+    }
+
+/* animated edges */
+.card {
+  border: 1px solid black;
+  padding: 1rem;
+  height: 1rem;
+  font-size: 16px;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h4{
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+h5{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+p {
+  text-align: left;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2.5;
+}
