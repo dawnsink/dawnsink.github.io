@@ -2,8 +2,7 @@ body {
   background-color: #FFF8E7
   ;
   transition: 20s;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
-  font-weight: 300;
+  font-family: Didot, serif;
 }
 
 .column {
@@ -67,7 +66,7 @@ p {
   padding-top: 10px;
   font-size: 20px;
   font-weight: 100;
-  line-height: 2.5;
+  line-height: 2.1;
 }
 
 hr.new1 {
