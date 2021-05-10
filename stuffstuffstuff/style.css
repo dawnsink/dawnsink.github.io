@@ -1,7 +1,8 @@
 body {
-  background-color: gold;
+  background-color: #FFF8E7
+  ;
   transition: 20s;
-  font-family: Didot, serif;
+  font-family: 'Libre Caslon Text', serif;
 }
 
 .column {
@@ -74,6 +75,9 @@ hr.new1 {
   width: 90%;
 }
 
+a:hover {
+  background-color: yellow;
+}
 
 /*
 .paragraph {
