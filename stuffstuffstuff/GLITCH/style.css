@@ -2,7 +2,8 @@ body {
   background-color: #FFF8E7
   ;
   transition: 20s;
-  font-family: 'Libre Caslon Text', serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+  font-weight: 300;
 }
 
 .column {
@@ -25,7 +26,6 @@ body {
   }
 
 @media screen and (max-width: 600px){.column.side, .column.middle {width: 100%;}}
-
 
 h1{
   text-align: center;
@@ -74,72 +74,3 @@ hr.new1 {
   border: 1px solid black;
   width: 90%;
 }
-
-a:hover {
-  background-color: yellow;
-}
-
-/*
-.paragraph {
-  padding: 20px;
-} */
-
-
-
-
-
-
-/*
-a:link {
-  color: red;
-  text-decoration: none;
-}
-
-
-a:visited {
-  color: green;
-  text-decoration: none;
-}
-
-
-a:hover {
-  color: blue;
-  text-decoration: line-through;
-}
-
-
-a:active {
-  color: blue;
-}
-
-.button {
-  background-color: lavenderblush;
-  border: 1px solid red;
-  width: 70%;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.buttonA {
-  border-radius: 50%;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-  margin-top: 150px;
-  margin-bottom: 150px;
-}
-
-.grid-item {
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-} */

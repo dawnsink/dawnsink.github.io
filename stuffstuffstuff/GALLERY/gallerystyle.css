@@ -1,5 +1,6 @@
 body {
-  background-color: gold;
+  background-color:  #FFF8E7;
+  /* https://web.archive.org/web/20161222101809/http://www.pha.jhu.edu/~kgb/cosspec/ */
   transition: 20s;
   font-family: Didot, serif;
 }

@@ -4,7 +4,8 @@ body {
   transition: 60s;
   padding: 1rem;
   margin: 2rem;
-  font-family: Didot, serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; 
+  font-weight: 300;
 }
 
 /* Screen larger than 600px 2 column */
