@@ -1,0 +1,127 @@
+body {
+    background-color:  #FFF8E7;
+    /* https://web.archive.org/web/20161222101809/http://www.pha.jhu.edu/~kgb/cosspec/ */
+    transition: 20s;
+    font-family: Darker Grotesque, Arial, Helvetica, sans-serif; 
+  }
+  
+  h1 {
+    font-size: 72px;
+  }
+  
+  /* title */
+  .title {
+    border: 1px solid black;
+    border-radius: 90px;
+    text-align: left;
+    padding-left: 50px;
+  }
+  
+  .title p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /* title */
+  
+  /* content columns */
+  .wrap {
+    display: flex;
+  }
+  .left {
+    flex-basis: 50%;
+    margin: 30px;
+  }
+  .right {
+    /* background: whitesmoke; */
+    flex-basis: 50%;
+    height: 100vh;
+    overflow: auto;
+  }
+  /* content columns */
+  
+  /* unvisited link */
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  /* visited link */
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  /* mouse over link */
+  a:hover {
+    color: green;
+    text-decoration: line-through;
+  }
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  
+  /* buttons */
+  .main-hr {
+    width: 30%;
+    border: none;
+    border-top: 1px solid #c3c3c3;
+  }
+  .icon-btn {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    font-family: Darker Grotesque, Arial, Helvetica, sans-serif; 
+    font-size: 24px;
+    /* border: 1px solid #cdcdcd; */
+    background: white;
+    border-radius: 600px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.3s ease-in-out;
+  }
+  .add-btn:hover {
+    width: 220px;
+  }
+  .add-btn::after {
+    right: 14px;
+    overflow: hidden;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+  .add-btn::before {
+    left: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
+  .icon-btn:focus {
+    outline: none;
+  }
+  .btn-txt {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .add-btn:hover::before,
+  .add-btn:hover::after {
+    width: 4px;
+    border-radius: 2px;
+  }
+  .add-btn:hover .btn-txt {
+    opacity: 1;
+  }
+  /* buttons */
+  
+  
+  /* button column */
+  .grid-container {
+    display: grid;
+    /* grid-template-columns: auto; */
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  /* grid column */
+  
