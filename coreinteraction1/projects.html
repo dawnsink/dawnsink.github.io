@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI.1 F.21 Projects</title>
+
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="background.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Projects</h1>
+
+    <button type="button" class="collapsible">Analog Programming<br>9/7 & 9/14</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSvg6stxF4puSEikRf_S-asrPrfqcQVPSjGuT3NKuuYqHaNyeotu_1miIyMqP9B8i7F6RxD50V3HAo4/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:600px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Interview<br>9/21 & 9/28</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vTUWFaSbJO7o7gizsTPlGU1bJWh28FZ4WOhnDXnr5aqvHG2_e--NOdcs3DbpeKDKXvgwmsxA0UIlq4K/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height: 1050px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Web Deconstruction<br>10/5</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSrA5-2-UZuIPo_df4AmghdICNe4Qy1Rva4K-Z6Nh5s2mAvR-DUFRGtFSb_zk-szqL7Y4mCqPCPLrh2/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Song in Code<br>10/12 & 10/19</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRfl7T9lCGZBA1ul7zN7QN5o9WTo4U1B6Tf7MV2V3yS9RtYPVyAancI5z2G_mOVCjeGREReZlN7tWVM/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:100%;border:none;overflow:hidden;"></iframe>  
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Art in Code<br>10/26</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRB3ORevpDQtuuYZifs2n-tDbxmWDOoLq2t5Hhjzjxhx3kALrImrHo4kuAJNWYYEwDQfoFqeDWicRgR/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Site of Self<br>11/9</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vS1Xgvqh6f70LrvJEoocOD4M2Ebeg1MfccRFGhg8vZzCNuXnyn77ea2C7KKoYGNtIId_vR_BB6wFAkj/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:500px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+    <button type="button" class="collapsible">Story As Network<br>11/16, 11/23 & 12/7</button><div class="content">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vRX1bNMr4F1DZk-9Oist0gc4c-BK6LvbmsE5zQwC2SzA-ieWBTnewikrO4aFZkQvz-07yZDsaCE3oKY/pub?embedded=true" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:1100px;width:100%;border:none;overflow:hidden;"></iframe>
+    </div>
+    <br><br>
+
+
+   
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+            var i;
+        
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                        content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+    </script> 
+</body>
+</html>
