@@ -71,3 +71,26 @@ body {
     display: none;
     overflow: hidden;
   }
+
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #2f36ee;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #2f36ee;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #2f36ee;
+}
+
